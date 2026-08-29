@@ -15,7 +15,7 @@ function returnForm(currentForm) {
   try {
     script = await (
       await fetch(
-        "https://raw.githubusercontent.com/BoringBoredom/UEFI-Editor/master/IFR-Formatter/IFR-Formatter.js",
+        "https://raw.githubusercontent.com/titonax/UEFI-Editor-QWEN/master/IFR-Formatter/IFR-Formatter.js",
       )
     ).text();
   } catch {
